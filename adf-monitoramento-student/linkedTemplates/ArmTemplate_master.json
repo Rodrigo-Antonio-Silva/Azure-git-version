@@ -7,17 +7,13 @@
 			"metadata": "Nome do Data Factory",
 			"defaultValue": "adf-monitoramento-student"
 		},
-		"AzureDataLakeStorage1_accountKey": {
+		"AzureBlobStorage1_connectionString": {
 			"type": "secureString",
-			"metadata": "Cadeia de caracteres segura para 'accountKey' de 'AzureDataLakeStorage1'"
+			"metadata": "Cadeia de caracteres segura para 'connectionString' de 'AzureBlobStorage1'"
 		},
 		"MySql1_password": {
 			"type": "secureString",
 			"metadata": "Cadeia de caracteres segura para 'password' de 'MySql1'"
-		},
-		"AzureDataLakeStorage1_properties_typeProperties_url": {
-			"type": "string",
-			"defaultValue": "https://ascstudent.dfs.core.windows.net/"
 		},
 		"MySql1_properties_typeProperties_server": {
 			"type": "string",
@@ -58,14 +54,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"AzureDataLakeStorage1_accountKey": {
-						"value": "[parameters('AzureDataLakeStorage1_accountKey')]"
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
 					"MySql1_password": {
 						"value": "[parameters('MySql1_password')]"
-					},
-					"AzureDataLakeStorage1_properties_typeProperties_url": {
-						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
 					},
 					"MySql1_properties_typeProperties_server": {
 						"value": "[parameters('MySql1_properties_typeProperties_server')]"

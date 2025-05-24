@@ -5,14 +5,11 @@
 		"factoryName": {
 			"value": "adf-monitoramento-student"
 		},
-		"AzureDataLakeStorage1_accountKey": {
+		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
 		"MySql1_password": {
 			"value": ""
-		},
-		"AzureDataLakeStorage1_properties_typeProperties_url": {
-			"value": "https://ascstudent.dfs.core.windows.net/"
 		},
 		"MySql1_properties_typeProperties_server": {
 			"value": "localhost"
