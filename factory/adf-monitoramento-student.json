@@ -1,0 +1,9 @@
+{
+	"name": "adf-monitoramento-student",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "de3c442b-19b0-4dcc-be32-c978a15f094b",
+		"tenantId": "d75341b6-4753-4f45-88bd-5e7c24b4b814"
+	}
+}
