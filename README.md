@@ -1,1 +1,2 @@
 # Azure-git-version
+Este projeto integra o Azure Data Factory com o GitHub para versionamento de artefatos como pipelines, datasets e linked services. A estrutura permite controle de mudanças, auditoria e padronização dos ambientes de dados. Toda edição é rastreada no repositório GitHub, garantindo governança no ciclo de desenvolvimento e facilitando a futura implementação de CI/CD com GitHub Actions.
